@@ -175,9 +175,7 @@ const ProfileComponent = () => {
 
           {/* Blogs / Drafts */}
           <div className="lg:col-span-2">
-            <div className="bg-white dark:bg-gray-900 rounded-2xl border border-gray-100 dark:border-gray-800 overflow-hidden shadow-sm">
-              <UserContentSection />
-            </div>
+            <UserContentSection />
           </div>
 
           {/* Network Sidebar */}
